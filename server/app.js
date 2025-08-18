@@ -15,7 +15,7 @@ config({ path: './config.env' });
 
 app.use(cors({
 
-    origin: [https://convoapplication.netlify.app],
+    origin: ["https://convoapplication.netlify.app"],
     credentials: true,
     method:["GET", "POST", "PUT", "DELETE"],
     })
