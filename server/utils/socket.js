@@ -7,7 +7,7 @@ let io;
 export function initSocket(server) {
     io = new Server(server, {
         cors: {
-            origin: [process.env.FRONTEND_URL, "convoapplication.netlify.app"],
+            origin: ["convoapplication.netlify.app"],
         },
     });
 
